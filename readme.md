@@ -1,3 +1,29 @@
-This is an exercise for Bash commands
+# Purpose of SIIT-JS
 
-Rename master from Workingdirectory to siit-js (in explorer)
+===
++ to documment what we learn  
++ to understand and exercise
++ _to have some fun_ 
+===
+
+# Bash and Git
+
+## Documentation
+
+
+## Homework
+
++ 1. 
+
+
+# HTML
+# CSS
+# Responsive Design
+# JavaScript
+# OOP
+# Angular and Typescript
+# Ajax and Promises
+# BOM
+# Final Project
+# Interview Preparation
+
