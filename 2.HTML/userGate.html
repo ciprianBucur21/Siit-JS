@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Ciprian" />
+    <link rel="icon" href="https://challenge.scoalainformala.ro/wp-content/uploads/logo-siit1.png"
+        types="image/x-icon" />
+
+
+    <title>User Gate</title>
+</head>
+
+<body>
+
+    <header>
+        <div>
+            <img src="C:\Users\cipri\Desktop\Siit-JS\2.HTML\Logo.png" alt="Logo" width="100" height="100">
+        </div>
+    </header>
+
+    <main>
+        <hr { border: 1px solid black; }>
+
+        <div>
+            <form id="login">
+                <label for="login">Login to yout account</label>
+                <fieldset>
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input id="Email" type="email" />
+
+                    </div>
+                    <div>
+                        <label for="password">Password:</label>
+                        <input id="password" type="password" />
+                    </div>
+                    <input type="submit" value="Submit" disabled />
+                </fieldset>
+            </form>
+        </div>
+
+
+        <div>
+            <form id="login">
+                <label for="login">Sign up</label>
+                <fieldset>
+
+                    <div>
+                        <label for="username">Username:</label>
+                        <input id="username" type="text" name="Username" required minlength="3" maxlength="12" />
+                    </div>
+
+                    <div>
+                        <label for="Email">Email:</label>
+                        <input id="Email" type="email" name="email" required
+                            pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$" />
+                    </div>
+
+                    <div>
+                        <label for="age">Age:</label>
+                        <input id="age" type="number" name="age" min="14" max="110" />
+                    </div>
+
+                    <div>
+                        <label for="Date">Birthday:</label>
+                        <input id="Date" type="date" name="Birthday" required />
+                    </div>
+
+                    <div>
+                        <p>Gender</p>
+                        <label for="M">M</label>
+                        <input id="M" type="Radio" name="gender" />
+
+                        <label for="F">F</label>
+                        <input id="F" type="Radio" name="gender" />
+
+                        <label for="Other">Other</label>
+                        <input id="Other" type="Radio" name="gender" />
+
+                    </div>
+
+                    <div>
+                        <label for="password">Password:</label>
+                        <input id="password" type="password" required
+                            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" />
+                        <!-- This pattern uses the following rules to validate the password format:
+
+                            The string must contain at least one lowercase letter. (?=.*[a-z])
+                            The string must contain at least one uppercase letter. (?=.*[A-Z])
+                            The string must contain at least one digit. (?=.*\d)
+                            The string must contain at least one special character. (?=.[@$!%?&])
+                            The string must be at least 8 characters long. [A-Za-z\d@$!%*?&]{8,} -->
+                    </div>
+
+                    <div>
+                        <label for="Retype Password">Retype Password:</label>
+                        <input id="password" type="password" required
+                            pattern="^(?=.*[a-z])(?=.*[A-Z])(?=.*\d)(?=.*[@$!%*?&])[A-Za-z\d@$!%*?&]{8,}$" />
+
+                    </div>
+
+                    <div>
+                        <select name="state_code">
+                            <option value="">Select state</option>
+                            <option value="201">New Jersey</option>
+                            <option value="212">New York</option>
+                            <option value="310">California</option>
+                            <option value="004">Romania</option>
+
+                        </select>
+                        <label for="tel">Phone:</label>
+                        <input id="tel" type="tel" required
+                            pattern="^\d{10}$|^\d{3}-\d{3}-\d{4}$|^\(\d{3}\)\d{3}-\d{4}$" />
+                    </div>
+
+                    <div>
+                        <label for="Cond1">I agree with cond 1</label>
+                        <input type="checkbox" id="cond1" name=cond1 required />
+
+                        <label for="Cond2">I agree with cond 2</label>
+                        <input type="checkbox" id="cond2" name=cond2 required />
+
+                    </div>
+                    <input type="submit" value="Submit" disabled />
+                </fieldset>
+
+            </form>
+        </div>
+
+        <hr { border: 1px solid black; }>
+    </main>
+
+    <footer>
+        <p> Footer (same as homepage)</p>
+    </footer>
+</body>
+
+</html>
