@@ -1,0 +1,29 @@
+/* A css rule is always has a selector (by: name, attributes); */
+/* ctrl+space */
+
+* {
+    font-family: 'Times New Roman', 'Times', 'serif';
+}
+
+p {
+    color: red;
+    font-size: 22px;
+    border: 2px red solid
+}
+
+#p1,
+#p3,
+.paragraph-blue {
+    color: blue;
+    font-size: 18
+}
+
+
+
+/*
+Target by:
+- id
+- class
+- element name
+- attribute selector
+*/
