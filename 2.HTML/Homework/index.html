@@ -84,7 +84,81 @@
 
             </tbody>
         </table>
+        <br>
+        <form>
+            <fieldset style="content: width: 440; height:420; width:440px ">
+                <legend>Ask us about planets</legend>
+                <br>
+                <div>
 
+                    <label for="username">Username:</label>
+                    <input id="username" type="text" name="Username" required="" minlength="3" maxlength="20">
+                </div>
+                <br>
+                <div>
+                    <label for="Email">Email:</label>
+                    <input id="Email" type="email" name="email" required=""
+                        pattern="^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+$">
+                </div>
+
+                <P>Favorite planet:</P>
+                <div>
+                    <input type="Radio" name="planet" value="Mercury">
+                    <label>Mercury </label>
+                </div>
+                <div>
+                    <input type="Radio" name="planet" value="Venus">
+                    <label>Venus</label>
+                </div>
+                <div>
+                    <input type="Radio" name="planet" value="Earth" checked>
+                    <label>Earth</label>
+                </div>
+                <div>
+                    <input type="Radio" name="planet" value="Mars">
+                    <label>Mars</label>
+                </div>
+                <div>
+                    <input type="Radio" name="planet" value="Jupiter">
+                    <label>Jupiter</label>
+                </div>
+                <div>
+                    <input type="Radio" name="planet" value="Saturn">
+                    <label>Saturn</label>
+                </div>
+                <div>
+                    <input type="Radio" name="planet" value="Uranus">
+                    <label>Uranus</label>
+                </div>
+                <div>
+                    <input type="Radio" name="planet" value="Neptune">
+                    <label>Neptune</label>
+                </div>
+                <div>
+                    <input type="Radio" name="planet" value="Pluto">
+                    <label>Pluto</label>
+                </div>
+                <br>
+                <div>
+                    <input Id="condition" type="Checkbox" name="agree" value="on" required>
+                    <label for="condition">I agree to the <a href="" target="_blank">terms and conditions</a></label>
+
+                </div>
+                <br>
+                <div class="buttons">
+
+                    <input id="resetButton" type="reset" Value="Reset">
+
+                    <input id="submitButton" type="Submit" Value="Ask Away">
+
+                </div>
+
+                <!-- <button>Submit</button> -->
+
+
+
+            </fieldset>
+        </form>
     </main>
 
     <footer>
